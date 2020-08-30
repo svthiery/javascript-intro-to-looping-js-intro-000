@@ -17,3 +17,7 @@ function whileLoop(num) {
   }
   return 'done'
 }
+
+const doWhileLoop = integer => {
+  
+}
