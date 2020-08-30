@@ -18,6 +18,12 @@ function whileLoop(num) {
   return 'done'
 }
 
-const doWhileLoop = integer => {
-  
+const doWhileLoop = i => {
+  do {
+    function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+  console.log("I run once regardless.")
+  } while (i < )
 }
